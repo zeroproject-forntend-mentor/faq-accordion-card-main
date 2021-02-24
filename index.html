@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <picture class="faq__image">
+        <source
+          media="(min-width:900px)"
+          type="image/svg+xml"
+          srcset="./images/illustration-woman-online-desktop.svg"
+        />
+        <img src="./images/illustration-woman-online-mobile.svg" alt="" />
+      </picture>
+      <section class="section">
+        <h1 class="title">FAQ</h1>
+        <ul id="faq-list" class="list">
+          <li class="list__item">
+            <article class="ask">
+              <h2 class="ask__question">How many team members can I invite?</h2>
+              <div class="ask__answer">
+                <p class="ask__text">
+                  You can invite up to 2 additional users on the Free plan.
+                  There is no limit on team members for the Premium plan.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="list__item">
+            <article class="ask">
+              <h2 class="ask__question">
+                What is the maximum file upload size?
+              </h2>
+              <div class="ask__answer">
+                <p class="ask__text">
+                  No more than 2GB. All files in your account must fit your
+                  allotted storage space.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="list__item">
+            <article class="ask">
+              <h2 class="ask__question">How do I reset my password?</h2>
+              <div class="ask__answer">
+                <p class="ask__text">
+                  Click “Forgot password” from the login page or “Change
+                  password” from your profile page. A reset link will be emailed
+                  to you.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="list__item">
+            <article class="ask">
+              <h2 class="ask__question">Can I cancel my subscription?</h2>
+              <div class="ask__answer">
+                <p class="ask__text">
+                  Yes! Send us a message and we’ll process your request no
+                  questions asked.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="list__item">
+            <article class="ask">
+              <h2 class="ask__question">Do you provide additional support?</h2>
+              <div class="ask__answer">
+                <p class="ask__text">
+                  Chat and email support is available 24/7. Phone lines are open
+                  during normal business hours.
+                </p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
